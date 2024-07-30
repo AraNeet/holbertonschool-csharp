@@ -1,0 +1,15 @@
+/home/ara/Project/AR-VR/holbertonschool-csharp/csharp-hello_world/4-print_integer/bin/Debug/net8.0/4-print_integer
+/home/ara/Project/AR-VR/holbertonschool-csharp/csharp-hello_world/4-print_integer/bin/Debug/net8.0/4-print_integer.deps.json
+/home/ara/Project/AR-VR/holbertonschool-csharp/csharp-hello_world/4-print_integer/bin/Debug/net8.0/4-print_integer.runtimeconfig.json
+/home/ara/Project/AR-VR/holbertonschool-csharp/csharp-hello_world/4-print_integer/bin/Debug/net8.0/4-print_integer.dll
+/home/ara/Project/AR-VR/holbertonschool-csharp/csharp-hello_world/4-print_integer/bin/Debug/net8.0/4-print_integer.pdb
+/home/ara/Project/AR-VR/holbertonschool-csharp/csharp-hello_world/4-print_integer/obj/Debug/net8.0/4-print_integer.GeneratedMSBuildEditorConfig.editorconfig
+/home/ara/Project/AR-VR/holbertonschool-csharp/csharp-hello_world/4-print_integer/obj/Debug/net8.0/4-print_integer.AssemblyInfoInputs.cache
+/home/ara/Project/AR-VR/holbertonschool-csharp/csharp-hello_world/4-print_integer/obj/Debug/net8.0/4-print_integer.AssemblyInfo.cs
+/home/ara/Project/AR-VR/holbertonschool-csharp/csharp-hello_world/4-print_integer/obj/Debug/net8.0/4-print_integer.csproj.CoreCompileInputs.cache
+/home/ara/Project/AR-VR/holbertonschool-csharp/csharp-hello_world/4-print_integer/obj/Debug/net8.0/4-print_integer.sourcelink.json
+/home/ara/Project/AR-VR/holbertonschool-csharp/csharp-hello_world/4-print_integer/obj/Debug/net8.0/4-print_integer.dll
+/home/ara/Project/AR-VR/holbertonschool-csharp/csharp-hello_world/4-print_integer/obj/Debug/net8.0/refint/4-print_integer.dll
+/home/ara/Project/AR-VR/holbertonschool-csharp/csharp-hello_world/4-print_integer/obj/Debug/net8.0/4-print_integer.pdb
+/home/ara/Project/AR-VR/holbertonschool-csharp/csharp-hello_world/4-print_integer/obj/Debug/net8.0/4-print_integer.genruntimeconfig.cache
+/home/ara/Project/AR-VR/holbertonschool-csharp/csharp-hello_world/4-print_integer/obj/Debug/net8.0/ref/4-print_integer.dll

@@ -1,0 +1,15 @@
+/home/ara/Project/AR-VR/holbertonschool-csharp/csharp-hello_world/10-copy_cut_paste/obj/Debug/net8.0/10-copy_cut_paste.GeneratedMSBuildEditorConfig.editorconfig
+/home/ara/Project/AR-VR/holbertonschool-csharp/csharp-hello_world/10-copy_cut_paste/obj/Debug/net8.0/10-copy_cut_paste.AssemblyInfoInputs.cache
+/home/ara/Project/AR-VR/holbertonschool-csharp/csharp-hello_world/10-copy_cut_paste/obj/Debug/net8.0/10-copy_cut_paste.AssemblyInfo.cs
+/home/ara/Project/AR-VR/holbertonschool-csharp/csharp-hello_world/10-copy_cut_paste/obj/Debug/net8.0/10-copy_cut_paste.csproj.CoreCompileInputs.cache
+/home/ara/Project/AR-VR/holbertonschool-csharp/csharp-hello_world/10-copy_cut_paste/obj/Debug/net8.0/10-copy_cut_paste.sourcelink.json
+/home/ara/Project/AR-VR/holbertonschool-csharp/csharp-hello_world/10-copy_cut_paste/bin/Debug/net8.0/10-copy_cut_paste
+/home/ara/Project/AR-VR/holbertonschool-csharp/csharp-hello_world/10-copy_cut_paste/bin/Debug/net8.0/10-copy_cut_paste.deps.json
+/home/ara/Project/AR-VR/holbertonschool-csharp/csharp-hello_world/10-copy_cut_paste/bin/Debug/net8.0/10-copy_cut_paste.runtimeconfig.json
+/home/ara/Project/AR-VR/holbertonschool-csharp/csharp-hello_world/10-copy_cut_paste/bin/Debug/net8.0/10-copy_cut_paste.dll
+/home/ara/Project/AR-VR/holbertonschool-csharp/csharp-hello_world/10-copy_cut_paste/bin/Debug/net8.0/10-copy_cut_paste.pdb
+/home/ara/Project/AR-VR/holbertonschool-csharp/csharp-hello_world/10-copy_cut_paste/obj/Debug/net8.0/10-copy_cut_paste.dll
+/home/ara/Project/AR-VR/holbertonschool-csharp/csharp-hello_world/10-copy_cut_paste/obj/Debug/net8.0/refint/10-copy_cut_paste.dll
+/home/ara/Project/AR-VR/holbertonschool-csharp/csharp-hello_world/10-copy_cut_paste/obj/Debug/net8.0/10-copy_cut_paste.pdb
+/home/ara/Project/AR-VR/holbertonschool-csharp/csharp-hello_world/10-copy_cut_paste/obj/Debug/net8.0/10-copy_cut_paste.genruntimeconfig.cache
+/home/ara/Project/AR-VR/holbertonschool-csharp/csharp-hello_world/10-copy_cut_paste/obj/Debug/net8.0/ref/10-copy_cut_paste.dll
