@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
-dotnet  new console -n 0-new_project
+if [ ! -d "0-new_project" ]; then
+    dotnet new console -n 0-new_project.csproj
+fi
