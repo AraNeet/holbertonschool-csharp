@@ -7,11 +7,12 @@ class Program
         int num;
         for (num = 1; num <= 99; num++)
         {
-            Console.Write("{0:D2}, ", num);
             if (num == 99)
             {
                 Console.Write("{0}\n", num);
+                break;
             }
+            Console.Write("{0:D2}, ", num);
         }
     }
 }
