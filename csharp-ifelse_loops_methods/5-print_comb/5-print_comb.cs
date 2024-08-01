@@ -5,7 +5,7 @@ class Program
     public static void Main()
     {
         int num;
-        for (num = 1; num <= 99; num++)
+        for (num = 0; num < 100; num++)
         {
             if (num == 99)
             {
