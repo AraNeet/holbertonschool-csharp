@@ -5,7 +5,7 @@ class Program
     public static void Main()
     {
         int num;
-        for (num = 1; num < 100; num++)
+        for (num = 1; num <= 99; num++)
         {
             Console.Write("{0:D2}, ", num);
             if (num == 99)
