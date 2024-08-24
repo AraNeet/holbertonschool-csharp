@@ -3,20 +3,21 @@ using System.Collections.Generic;
 
 class List
 {
-    public static int SafePrint(List<int> myList, int n)
+  public static int SafePrint(List<int> myList, int n)
+  {
+    int num = 0;
+    try
     {
-        int count = 0;
-        try
-        {
-            for (int i = 0; i < n; i++)
-            {
-                Console.WriteLine(myList[i]);
-                count++;
-            }
-        }
-        catch (System.ArgumentOutOfRangeException)
-        {
-        }
-        return count;
+      while (num < n)
+      {
+        Console.WriteLine(myList[num]);
+        num++;
+      }
     }
+    catch (System.ArgumentOutOfRangeException)
+    {
+
+    }
+    return num;
+  }
 }
