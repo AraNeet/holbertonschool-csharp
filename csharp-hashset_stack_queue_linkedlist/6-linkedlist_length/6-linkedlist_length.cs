@@ -3,13 +3,14 @@ using System.Collections.Generic;
 
 class LList
 {
-    public static int Length(LinkedList<int> myLList)
+  public static int Length(LinkedList<int> myLList)
+  {
+    int size = 0;
+
+    foreach(int node in myLList)
     {
-        int num = 0;
-        foreach (int nodes in myLList)
-        {
-            num++;
-        }
-        return num;
+      size++;
     }
+    return size;
+  }
 }

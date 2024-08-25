@@ -3,22 +3,22 @@ using System.Collections.Generic;
 
 class Dictionary
 {
-    public static string BestScore(Dictionary<string, int> myList)
+  public static string BestScore(Dictionary<string, int> myList)
+  {
+    if(myList.Count == 0)
     {
-        if (myList.Count == 0)
-        {
-            return "None";
-        }
-        string player = "";
-        int BestScore = 0;
-        foreach (KeyValuePair<string, int> score in myList)
-        {
-            if (BestScore <= score.Value)
-            {
-                player = score.Key;
-                BestScore = score.Value;
-            }
-        }
-        return player;
+      return "None";
     }
+    int highest = 0;
+    string person = "";
+    foreach(KeyValuePair<string, int> kvp in myList)
+    {
+      if(kvp.Value >= highest)
+      {
+        highest = kvp.Value;
+        person = kvp.Key;
+      }
+    }
+    return person;
+  }
 }

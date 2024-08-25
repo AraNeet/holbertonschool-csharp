@@ -2,17 +2,19 @@
 
 class Matrix
 {
-    public static int[,] Square(int[,] myMatrix)
-    {
-        int[,] newMatrix = new int[myMatrix.GetLength(0), myMatrix.GetLength(1)];
+  public static int[,] Square(int[,] myMatrix)
+  {
+    int rows = myMatrix.GetLength(0);
+    int cols = myMatrix.GetLength(1);
+    int[,] newMatrix = new int[rows, cols];
 
-        for (int i = 0; i < newMatrix.GetLength(0); i++)
-        {
-            for (int j = 0; j < newMatrix.GetLength(1); j++)
-            {
-                newMatrix[i,j] = myMatrix[i,j] * myMatrix[i,j];
-            }
-        }
-        return newMatrix;
+    for(int i = 0; i < rows; i++)
+    {
+      for(int j = 0; j < cols; j++)
+      {
+        newMatrix[i, j] = myMatrix[i, j] * myMatrix[i, j];
+      }
     }
+    return newMatrix;
+  }
 }

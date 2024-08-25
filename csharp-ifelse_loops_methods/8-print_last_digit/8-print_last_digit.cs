@@ -1,10 +1,14 @@
-﻿class Number {
-    public static int PrintLastDigit(int number) {
-        int lastNum = Math.Abs(number) % 10;
-        if (lastNum < 0) {
-            lastNum *= -1;
-        }
-        Console.Write("{0}", lastNum);
-        return lastNum;
+﻿using System;
+
+class Number
+{
+  public static int PrintLastDigit(int number)
+  {
+    if(number < 0){
+      number = -number;
     }
+    int last_digit = number % 10;
+    Console.Write(last_digit);
+    return last_digit;
+  }
 }

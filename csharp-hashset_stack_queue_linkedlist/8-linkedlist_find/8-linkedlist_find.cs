@@ -3,15 +3,18 @@ using System.Collections.Generic;
 
 class LList
 {
-    public static int FindNode(LinkedList<int> myLList, int value)
+  public static int FindNode(LinkedList<int> myLList, int value)
+  {
+    int index = 0;
+    
+    foreach(int node in myLList)
     {
-        int count = 0;
-        foreach (int num in myLList)
-        {
-            if (value == num)
-                return count;
-            count++;
-        }
-        return -1;
+      if(node == value)
+      {
+        return index;
+      }
+      index++;
     }
+    return -1;
+  }
 }

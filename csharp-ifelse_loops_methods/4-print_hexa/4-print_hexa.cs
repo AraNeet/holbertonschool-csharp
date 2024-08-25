@@ -2,10 +2,11 @@
 
 class Program
 {
-    static void Main()
+  static void Main(string[]args)
+  {
+    for(int i=0; i < 99; i++)
     {
-        for (int number = 0; number <= 98; number++) {
-            Console.Write("{0} = 0x{1}\n", number, number.ToString("x"));
-        }
+      Console.WriteLine("{0} = 0x" + i.ToString("x"), i);
     }
+  }  
 }

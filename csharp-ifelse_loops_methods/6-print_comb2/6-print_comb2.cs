@@ -2,19 +2,19 @@
 
 class Program
 {
-    static void Main()
+  static void Main(string[] args)
+  {
+    for (int i = 0; i < 10; i++)
     {
-        int num1, num2;
-        for (num1 = 0; num1 <= 9; num1++) {
-            for (num2 = 1; num2 <= 9; num2++) {
-                if (num1 == 8 && num2 == 9) {
-                    Console.Write("{0}{1}\n", num1, num2);
-                } else if (num1 >= num2) {
-                    continue;
-                } else {
-                    Console.Write("{0}{1}, ", num1, num2);
-                }
-            }
+      for (int j = i + 1; j < 10; j++)
+      {
+        Console.Write($"{i}{j}");
+        if (i != 8 || j != 9)
+        {
+          Console.Write(", ");
         }
+      }
     }
+    Console.WriteLine();
+  }
 }

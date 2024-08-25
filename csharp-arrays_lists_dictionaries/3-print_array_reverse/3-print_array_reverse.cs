@@ -2,25 +2,29 @@
 
 class Array
 {
-    public static void Reverse(int[] array)
+  public static void Reverse(int[] array)
+  {
+    if(array == null|| array.Length == 0)
     {
-        if (array == null || array.Length == 0)
-        {
-            Console.WriteLine();
-            return;
-        }
-
-        for (int i = array.Length - 1; i >= 0; i--)
-        {
-            if (i == 0)
-            {
-                Console.Write("{0}", array[i]);
-            }
-            else
-            {
-                Console.Write("{0} ", array[i]);
-            }
-        }
-        Console.WriteLine();
+      Console.WriteLine();
+      return;
     }
+    int temp;
+    int length = array.Length;
+
+    for (int i = 0; i < (length/2); i++)
+    {
+      temp = array[i];
+      array[i] = array[length - i - 1];
+      array[length - i - 1] = temp;
+    }
+    for(int j = 0; j<length; j++)
+    {
+      Console.Write(array[j]);
+      if(j < length - 1){
+        Console.Write(" ");
+      }
+    }
+    Console.WriteLine();
+  }
 }

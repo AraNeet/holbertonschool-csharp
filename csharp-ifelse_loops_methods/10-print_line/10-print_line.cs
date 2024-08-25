@@ -1,10 +1,12 @@
-﻿class Line {
-    public static void PrintLine(int length) {
-        if (length > 0) {
-            for (int line = 0; line < length; line++) {
-                Console.Write("_");
-            }
-        }
-        Console.Write("\n");
+﻿using System;
+
+class Line
+{
+  public static void PrintLine(int length)
+  {
+    for(int i = 0; i< length; i++){
+      Console.Write("_");
     }
+    Console.WriteLine();
+  }
 }

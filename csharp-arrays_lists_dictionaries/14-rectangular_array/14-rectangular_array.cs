@@ -1,28 +1,26 @@
 ﻿using System;
+using System.Reflection;
 
-namespace _14_rectangular_array
+class Program
 {
-    class Program
+  static void Main(string[]args)
+  {
+    for(int i=0; i< 5; i++)
     {
-        static void Main(string[] args)
+      for(int j=0; j < 5; j++)
+      {
+        if(i != 2 || j!= 2)
         {
-            int[,] array = {{0,0,0,0,0},{0,0,0,0,0},{0,0,1,0,0},{0,0,0,0,0},{0,0,0,0,0}};
-
-            for (int row = 0; row < 5; row++)
-            {
-                for (int col = 0; col < 5; col++)
-                {
-                    if (col + 1 == 5)
-                    {
-                        Console.Write("{0}", array[row, col]);
-                    }
-                    else
-                    {
-                        Console.Write("{0} ", array[row, col]);
-                    }
-                }
-                Console.WriteLine();
-            }
+          Console.Write("0");
         }
+        else{
+          Console.Write("1");
+        }
+        if(j < 4){
+          Console.Write(" ");
+        }
+      }
+      Console.WriteLine();
     }
+  }
 }

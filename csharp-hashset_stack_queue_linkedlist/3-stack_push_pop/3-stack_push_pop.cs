@@ -3,21 +3,24 @@ using System.Collections.Generic;
 
 class MyStack
 {
-    public static Stack<string> Info(Stack<string> aStack, string newItem, string search)
+  public static Stack<string> Info(Stack<string> aStack, string newItem, string search)
+  {
+    Console.WriteLine($"Number of items: {aStack.Count}");
+    if(aStack.Count == 0)
     {
-        Console.WriteLine("Number of items: {0}", aStack.Count);
-
-        if (aStack.Count == 0)
-            Console.WriteLine("Stack is empty");
-        else
-            Console.WriteLine("Top item: {0}", aStack.Peek());
-
-        Console.WriteLine("Stack contains \"{0}\": {1}", search, aStack.Contains(search));
-
-        if (aStack.Contains(search))
-            while (aStack.Pop() != search);
-
-        aStack.Push(newItem);
-        return aStack;
+      Console.WriteLine("Stack is empty");
+    } else
+    {
+      Console.WriteLine($"Top item: {aStack.Peek()}");
     }
+    Console.WriteLine($"Stack contains \"{search}\": {aStack.Contains(search)}");
+
+    if(aStack.Contains(search))
+    {
+      while(aStack.Pop() != search);
+    }
+
+    aStack.Push(newItem);
+    return aStack;
+  }
 }
