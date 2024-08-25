@@ -1,20 +1,21 @@
 ﻿using System;
-using System.Collections.Generic;
 
 class Int
 {
-  public static void divide(int a, int b)
-  {
-  int div = 0;
-    try{
-      div = a / b;
-    }
-    catch(System.DivideByZeroException)
+    public static void divide(int a, int b)
     {
-      Console.WriteLine("Cannot divide by zero");
+        int result = 0;
+        try
+        {
+            result = a / b;
+        }
+        catch (System.DivideByZeroException)
+        {
+            Console.WriteLine("Cannot divide by zero");
+        }
+        finally
+        {
+            Console.WriteLine("{0} / {1} = {2}", a, b, result);
+        }
     }
-    finally{
-      Console.WriteLine($"{a} / {b} = {div}");
-    }
-  }
 }
