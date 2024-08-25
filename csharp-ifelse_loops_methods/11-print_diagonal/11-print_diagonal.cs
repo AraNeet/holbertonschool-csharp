@@ -1,22 +1,13 @@
-﻿using System;
-
-class Line
-{
-    public static void PrintDiagonal(int length)
-    {
-        if (length <= 0)
-        {
-            Console.WriteLine();
-            return;
-        }
-
-        for (int i = 0; i < length; i++)
-        {
-            for (int j = 0; j < i; j++)
-            {
-                Console.Write(" ");
+﻿class Line {
+    public static void PrintDiagonal(int length) {
+        if (length > 0) {
+            for (int line = 1; line <= length; line++) {
+                for (int space = 1; space < line; space++){
+                    Console.Write(" ");
+                }
+                Console.Write("\\\n");
             }
-            Console.WriteLine("\\");
         }
+        Console.Write("\n");
     }
 }

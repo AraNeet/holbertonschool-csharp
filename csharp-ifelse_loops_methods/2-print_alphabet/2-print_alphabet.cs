@@ -1,13 +1,11 @@
-﻿using System;
+﻿﻿using System;
 
 class Program
 {
-    public static void Main()
+    static void Main()
     {
-        char abc;
-        for (abc = 'a'; abc <= 'z'; abc++)
-        {
-            Console.Write("{0}", abc);
+        for (char letter = 'a'; letter <= 'z'; letter++) {
+            Console.Write("{0}", letter);
         }
     }
 }

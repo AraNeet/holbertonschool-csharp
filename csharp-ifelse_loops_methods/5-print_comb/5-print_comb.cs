@@ -1,18 +1,14 @@
 ﻿using System;
-
 class Program
 {
-    public static void Main()
+    static void Main()
     {
-        int num;
-        for (num = 0; num < 100; num++)
-        {
-            if (num == 99)
-            {
-                Console.Write("{0:D2}\n", num);
-                break;
+        for (int num = 0; num <= 99; num++) {
+            if (num == 99) {
+                Console.Write("{0}\n", num);
+            }else {
+                Console.Write("{0}, ", num.ToString("00"));
             }
-            Console.Write("{0:D2}, ", num);
         }
     }
 }

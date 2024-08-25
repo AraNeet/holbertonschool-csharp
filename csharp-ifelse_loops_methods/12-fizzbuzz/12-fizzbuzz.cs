@@ -1,29 +1,28 @@
-﻿using System;
+﻿namespace _12_fizzbuzz;
 
 class Program
 {
-    public static void Main()
+    static void Main()
     {
-        int num;
-        for (num = 0; num <= 100; num++)
-        {
-            if (num % 3 == 0 && num % 5 == 0)
-            {
-                Console.Write("FizzBuzz ");
+        for (int num = 1; num <= 100; num++) {
+            if (num % 3 == 0 && num % 5 == 0) {
+                Console.Write("FizzBuzz");
             }
-            else if (num % 3 == 0)
-            {
-                Console.Write("Fizz ");
+            else if (num % 3 == 0) {
+                Console.Write("Fizz");
             }
-            else if (num % 5 == 0)
-            {
-                Console.Write("Buzz ");
+            else if (num % 5 == 0) {
+                Console.Write("Buzz");
             }
-            else
-            {
-                Console.Write("{0} ", num);
+            else {
+                Console.Write("{0}", num);
+            }
+            if (num != 100) {
+                Console.Write(" ");
+            }
+            else {
+                Console.Write("\n");
             }
         }
-        Console.WriteLine("");
     }
 }

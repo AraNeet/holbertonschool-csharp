@@ -1,16 +1,10 @@
-﻿using System;
-
-class Character
-{
-    public static bool IsLower(char c)
-    {
-        if (c >= 'a' && c <= 'z')
-        {
-            return true;
+﻿class Character {
+    public static bool IsLower(char c) {
+        for (char letter = 'a'; letter <= 'z'; letter++) {
+            if (letter == c) {
+                return true;
+            }
         }
-        else
-        {
-            return false;
-        }
+        return false;
     }
 }

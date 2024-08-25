@@ -1,1 +1,1 @@
-csharp-hashset_stack_queue_linkedlist for learning these thing
+csharp-hashset_stack_queue_linkedlist

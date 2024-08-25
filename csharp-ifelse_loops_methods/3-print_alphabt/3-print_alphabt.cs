@@ -2,14 +2,13 @@
 
 class Program
 {
-    public static void Main()
+    static void Main()
     {
-        char abc;
-        for (abc = 'a'; abc <= 'z'; abc++)
-        {
-            if (abc != 'q' && abc != 'e')
-            {
-                Console.Write("{0}", abc);
+        for (char letter = 'a'; letter <= 'z'; letter++) {
+            if (letter == 'e' || letter == 'q') {
+                continue;
+            } else {
+                Console.Write("{0}", letter);
             }
         }
     }

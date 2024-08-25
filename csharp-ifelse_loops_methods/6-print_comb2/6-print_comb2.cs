@@ -2,21 +2,17 @@
 
 class Program
 {
-    public static void Main()
+    static void Main()
     {
-        int numa; 
-        int numb = 0;
-        for (numa = 0; numa <= 8; numa++)
-        {
-            for (numb = numa + 1; numb <= 9; numb++)
-            {
-                if (numa == 8 && numb == 9)
-                {
-                    Console.Write("{0}{1}\n", numa, numb);
-                }
-                else 
-                {
-                    Console.Write("{0}{1}, ", numa, numb);
+        int num1, num2;
+        for (num1 = 0; num1 <= 9; num1++) {
+            for (num2 = 1; num2 <= 9; num2++) {
+                if (num1 == 8 && num2 == 9) {
+                    Console.Write("{0}{1}\n", num1, num2);
+                } else if (num1 >= num2) {
+                    continue;
+                } else {
+                    Console.Write("{0}{1}, ", num1, num2);
                 }
             }
         }
