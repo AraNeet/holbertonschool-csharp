@@ -1,4 +1,7 @@
-﻿namespace Text
+﻿using System;
+using System.Collections.Generic;
+
+namespace Text
 {
   /// <summary>
   /// Represents a string utility class.
@@ -12,19 +15,24 @@
     /// <returns>boolean</returns>
     public static bool IsPalindrome(string s)
     {
-      if (s.Length == 0)
-      {
-        return true;
-      }
       s = s.ToLower();
-      for(int i = 0; i < s.Length / 2; i++)
+
+      List<char> sParsed = new List<char>();
+
+      for (int i = 0; i < s.Length; i++)
       {
-        if (s[i] != s[s.Length - i - 1])
+        if (s[i] >= 'a' && s[i] <= 'z')
         {
-          return false;
+          sParsed.Add(s[i]);
         }
       }
-      return true;
+      s = new string(sParsed.ToArray());
+      
+      char[] sCharArray = s.ToCharArray();
+      Array.Reverse(sCharArray);
+      string sReverse = new string(sCharArray);
+      
+      return s == sReverse;
     }
   }
 }
