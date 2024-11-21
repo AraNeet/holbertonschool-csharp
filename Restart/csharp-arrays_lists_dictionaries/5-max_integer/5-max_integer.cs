@@ -15,7 +15,7 @@ class List
         {
             if (MyList[i] > greatest)
             {
-                greatest = i;
+                greatest = MyList[i];
             }
         }
 
