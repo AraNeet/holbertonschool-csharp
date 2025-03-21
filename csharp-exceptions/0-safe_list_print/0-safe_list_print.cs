@@ -10,13 +10,14 @@ class List
     {
       for (int i = 0; i < n; i++)
       {
-        count++;
+        
         Console.WriteLine(myList[i]);
+        count++;
       }
     }
     catch (System.ArgumentOutOfRangeException)
     {
-      return count - 1;
+      return count;
     }
     return count;
   }
