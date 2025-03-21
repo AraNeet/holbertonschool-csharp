@@ -5,19 +5,19 @@ class List
 {
   public static int SafePrint(List<int> myList, int n)
   {
-    int num = 0;
+    int count = 0;
     try
     {
-      while (num < n)
+      for (int i = 0; i < n; i++)
       {
-        Console.WriteLine(myList[num]);
-        num++;
+        count++;
+        Console.WriteLine(myList[i]);
       }
     }
     catch (System.ArgumentOutOfRangeException)
     {
-      
+      return count - 1;
     }
-    return num;
+    return count;
   }
 }
