@@ -4,13 +4,13 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "csharp-text_based_interface", "csharp-text_based_interface", "{EB0CB4EB-93BC-429C-ADAB-1BD8C25CE032}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryLibrary", "InventoryManagement\InventoryLibrary\InventoryLibrary.csproj", "{4B6A3358-3BAA-4EE7-AEF0-72C98BA397FD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryLibrary", "InventoryLibrary\InventoryLibrary.csproj", "{4B6A3358-3BAA-4EE7-AEF0-72C98BA397FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManager", "InventoryManagement\InventoryManager\InventoryManager.csproj", "{4C682AB3-7B37-4F13-A8EB-D17DAC8B93FF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManager", "InventoryManager\InventoryManager.csproj", "{4C682AB3-7B37-4F13-A8EB-D17DAC8B93FF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InventoryManagement", "InventoryManagement", "{B5B94FE1-7CE9-4843-81C4-45F1CC5BE3EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryLibrary.Tests", "InventoryManagement\InventoryLibrary.Tests\InventoryLibrary.Tests.csproj", "{11B6E777-FF96-473A-AFAE-EA0AA4E04F34}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryLibrary.Tests", "InventoryManagement.Tests\InventoryLibrary.Tests.csproj", "{11B6E777-FF96-473A-AFAE-EA0AA4E04F34}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
