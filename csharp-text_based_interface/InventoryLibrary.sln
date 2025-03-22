@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "csharp-text_based_interface", "csharp-text_based_interface", "{EB0CB4EB-93BC-429C-ADAB-1BD8C25CE032}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryLibrary", "csharp-text_based_interface\InventoryLibrary\InventoryLibrary.csproj", "{4B6A3358-3BAA-4EE7-AEF0-72C98BA397FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B6A3358-3BAA-4EE7-AEF0-72C98BA397FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B6A3358-3BAA-4EE7-AEF0-72C98BA397FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B6A3358-3BAA-4EE7-AEF0-72C98BA397FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B6A3358-3BAA-4EE7-AEF0-72C98BA397FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4B6A3358-3BAA-4EE7-AEF0-72C98BA397FD} = {EB0CB4EB-93BC-429C-ADAB-1BD8C25CE032}
+	EndGlobalSection
+EndGlobal
