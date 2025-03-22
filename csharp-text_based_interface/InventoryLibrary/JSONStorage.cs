@@ -4,7 +4,7 @@ namespace InventoryLibrary;
 
 public class JSONStorage
 {
-  private const string FilePath = "storage/inventory_manager.json";
+  private const string FilePath = "../storage/inventory_manager.json";
   public Dictionary<string, object> Objects {get; private set; } = new Dictionary<string, object>();
   
   public Dictionary<string, object> All()
